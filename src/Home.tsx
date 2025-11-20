@@ -1,5 +1,5 @@
 import { beritaTerbaru } from "./data";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import {
   Shield,
@@ -101,7 +101,7 @@ function Home() {
         "Sosialisasi dan Edukasi : Bersama Kita Cegah Kenakalan Remaja & Bangun Generasi Emas",
       tanggal: "17 September 2025",
       kategori: "Kegiatan",
-      image: "sosialisasi.webp",
+      image: "/sosialisasi.jpg",
     },
   ];
 
@@ -411,7 +411,7 @@ function Home() {
                   </p>
                   <div className="mt-auto">
                     <button
-                      onClick={() => navigate(`/edukasi/${item.id}`)} 
+                      onClick={() => navigate(`/edukasi/${item.id}`)}
                       className="w-full py-2 border-2 border-secondary text-secondary font-semibold rounded-lg hover:bg-secondary hover:text-white transition"
                     >
                       Pelajari Materi
@@ -426,7 +426,7 @@ function Home() {
 
       {/* --- NEW SECTION: BERITA --- */}
       <section id="berita" className="py-20 bg-white border-t border-slate-100">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+        <div className="container mx-auto px-4 md:px-12 lg:px-24">
           {/* Header Section Berita */}
           <div className="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
             <div>
