@@ -133,7 +133,7 @@ export const modulEdukasi: EdukasiData[] = [
       "Panduan lengkap mengenal bahaya narkotika, jenis-jenisnya, dan cara pencegahannya.",
     level: "Semua Level",
     kategori: "Kesehatan & Hukum",
-    image: "/heroo.png",
+    image: "/drug.png",
     materi: [
       {
         judul: "Apa Itu Narkotika?",
@@ -175,7 +175,7 @@ export const modulEdukasi: EdukasiData[] = [
     ],
   },
 
-  // MATERI 2: DISIPLIN WAKTU (Data Baru dari PDF 1)
+  // MATERI 2: DISIPLIN WAKTU ]
   {
     id: 2,
     judul: "Mengapa Kita Harus Disiplin Waktu?",
@@ -239,7 +239,7 @@ export const modulEdukasi: EdukasiData[] = [
     ],
   },
 
-  // MATERI 3: INDISIPLINER (Data Baru dari PDF 2)
+  // MATERI 3: INDISIPLINER 
   {
     id: 3,
     judul: "INDISIPLINER: Patuhi Aturan Masa Depan",
